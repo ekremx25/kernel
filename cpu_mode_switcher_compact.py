@@ -101,7 +101,7 @@ def set_cpu_mode(mode_name, root_window):
 def create_gui():
     root = Tk()
     root.title("CPU Hükümdarı")
-    root.geometry("250x230") # 4 buton için boyutu artırdık
+    root.geometry("300x350") # 4 buton için boyutu artırdık
     root.resizable(False, False)
     root.configure(background=PALETTE["base"])
     root.attributes('-topmost', True)
